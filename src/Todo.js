@@ -34,7 +34,7 @@ function Todo(props) {
             onClose={e => setOpen(false) }
         >
             <div className = {classes.paper}>
-                <h1>I am a Modal</h1>
+                <h1>so.....</h1>
                 <input placeholder = {props.text.todo} value ={input} onChange = {e => setInput(e.target.value)} />
                 <Button onClick ={updateTodo}>Update todo</Button>
             </div>
